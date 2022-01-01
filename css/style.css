@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: normal;
+    background-color: rgb(29, 29, 29);
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(170, 170, 170, 0.808);
+    text-decoration: none;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 29%;
+}
+
+.recent__activity {
+    margin-left: 29%;
+    margin-right: 29%;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(49, 49, 49, 0.514);
+}
+
+.about-me {
+    font-size: 17px;
+    margin-left: 29%;
+    margin-right: 29%;
+    padding: 10px 20px;
+    color: white;
+}
+
+.about-me-title {
+    font-size: 18px;
+    margin-left: 29%;
+    margin-right: 29%;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo:hover {
+    
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: rgba(49, 49, 49, 0.514);
+    color: white;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.social-links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.social-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.social-links li a:hover {
+    border-radius: 5px;
+    text-decoration: underline;
+    color: white;
+}
+
+footer {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 30%;
+}
+
+.line {
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 29%;
+    margin-right: 29%;
+}
+
+.line2 {
+    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 29%;
+    margin-right: 29%;
+}
